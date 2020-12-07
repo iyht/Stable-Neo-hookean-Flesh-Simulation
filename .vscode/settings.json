@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "core": "cpp",
+        "adolcforward": "cpp",
+        "alignedvector3": "cpp",
+        "autodiff": "cpp",
+        "iterativesolvers": "cpp",
+        "matrixfunctions": "cpp",
+        "sparseextra": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "optional": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "iosfwd": "cpp",
+        "stdexcept": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "nonlinearoptimization": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp"
+    }
+}

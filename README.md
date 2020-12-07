@@ -1,1 +1,0 @@
-# Stable-Neo-hookean
