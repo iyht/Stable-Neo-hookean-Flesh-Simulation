@@ -102,6 +102,7 @@ sudo apt install libxinerama-dev libxcursor-dev
 ## How to run?
 Build:
 ```
+git submodule update --init --recursive
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
