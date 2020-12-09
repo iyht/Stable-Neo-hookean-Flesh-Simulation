@@ -43,7 +43,7 @@ $$
 \psi_{\text{Neo}}(F) = \frac{\mu}{2}(J^{-\frac{2}{3}}I_C - 3) + \frac{\lambda}{2}(J - 1)^2
 $$
 
-![Unstable](./images/Nonstable.gif)
+![Unstable](./images/Nonstable-Neo.gif)
 
 ## Potential energy
 - `V_linear_tetrahedron.cpp`
