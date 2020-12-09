@@ -100,6 +100,8 @@ sudo apt install libxinerama-dev libxcursor-dev
 ```
 
 ## How to run?
+**Mac & Ubuntu**
+
 Build:
 ```
 git submodule update --init --recursive
@@ -108,6 +110,8 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 ```
+Then you can start to drag the armadillo with following command:
+
 Run with Stable Neo-Hookean
 ```
 ./stable_neohooken stable
@@ -116,6 +120,9 @@ Run without Stable Neo-Hookean
 ```
 ./stable_neohooken nonstable
 ```
+
+## Note
+Notice that different mouse/touchpad setting can effects the mouse force acting on the armadillo. For Ubuntu 20.04, it seems the touchpad can act larger force than mouse on the same machine, so I make the demo using the touchpad.
 
 ## Acknowledgement
 The framework of this project is based on [assignment](https://github.com/dilevin/CSC417-a3-finite-elements-3d) from Prof. David I.W. Levin.
