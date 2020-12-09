@@ -47,6 +47,7 @@ $$
 
 ## Potential energy
 - `V_linear_tetrahedron.cpp`
+
 $$
 V = \int_{\text{volume}}\psi(F) dV
 $$
@@ -78,6 +79,7 @@ I test the Newton-type Implicit Integration scheme and Linea Search with both LD
 
 ## Skinning
 - `build_skinning_matrix.cpp`
+
 Directly run FEM on the high resolution mesh can be slow. To get the real-time simulation, I use the Skinning to mapping the motion from low resolution armadillo tetrahedron mesh to the high resolution armadillo triangle mesh.
 
 
