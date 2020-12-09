@@ -35,10 +35,15 @@ $$
 $$
 where $J=\text{det}(F)$, $I_C = \text{tr}(F^TF)$, $\mu$ and $\lambda$ are Lamé constants.
 
+
+![Stable](./images/Stable-Neo.gif)
+
 I also test the Neo-Hookean energy from [Bower 2009](http://solidmechanics.org/)
 $$
 \psi_{\text{Neo}}(F) = \frac{\mu}{2}(J^{-\frac{2}{3}}I_C - 3) + \frac{\lambda}{2}(J - 1)^2
 $$
+
+![Unstable](./images/Nonstable.gif)
 
 ## Potential energy
 - `V_linear_tetrahedron.cpp`
@@ -107,5 +112,5 @@ Run without Stable Neo-Hookean
 ./stable_neohooken nonstable
 ```
 
-## Notice
+## Acknowledgement
 The framework of this project that I used is based on [assignment](https://github.com/dilevin/CSC417-a3-finite-elements-3d) from Prof. David I.W. Levin.
