@@ -40,7 +40,7 @@ Eigen::SparseMatrixd N;
 //material parameters
 double density = 0.1;
 double YM = 6e5; //young's modulus
-double poisson = 0.4; //poissons ratio
+double poisson = 0.3; //poissons ratio
 double D = 0.5*(YM*poisson)/((1.0+poisson)*(1.0-2.0*poisson));
 double C = 0.5*YM/(2.0*(1.0+poisson));
 
@@ -186,7 +186,7 @@ inline void setup(int argc, char **argv, Eigen::VectorXd &q, Eigen::VectorXd &qd
     }
     else
     {
-        std::cout << "Try ./stable_neohooken stable";
+        std::cout << "Try ./stable_neohooken stable" << std::endl;
         exit(1);
 
     }
