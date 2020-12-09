@@ -1,6 +1,8 @@
 
 # Stable Neo-Hookean Flesh Simulation
-[Stable Neo-Hookean](https://graphics.pixar.com/library/StableElasticity/paper.pdf) is a hyperelastic energy that remain stable under large deformations. This is the FEM implementation with Stable Neo-Hookean energy in [libigl](https://libigl.github.io)
+[Stable Neo-Hookean](https://graphics.pixar.com/library/StableElasticity/paper.pdf) is a hyperelastic energy that remain stable under large deformations. This is the FEM implementation with Stable Neo-Hookean energy in [libigl](https://libigl.github.io). 
+
+Demo video [here](https://youtu.be/OtGOPTVAOP0).
 
 ## Finite Element Method with Tetrahedron Mesh
  - `phi_linear_tetrahedron.cpp`
