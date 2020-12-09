@@ -113,4 +113,4 @@ Run without Stable Neo-Hookean
 ```
 
 ## Acknowledgement
-The framework of this project that I used is based on [assignment](https://github.com/dilevin/CSC417-a3-finite-elements-3d) from Prof. David I.W. Levin.
+The framework of this project is based on [assignment](https://github.com/dilevin/CSC417-a3-finite-elements-3d) from Prof. David I.W. Levin.
